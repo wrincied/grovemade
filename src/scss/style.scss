@@ -176,17 +176,69 @@
                 
             }
         }
-        .featured-products{
-            .products-text{
-                .products-text__title{
+        .content-featured{
+            .featured-text{
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                .featured-text__title{
+                    padding-bottom: 16px;
                     p{
                         font-family: 'Roboto', sans-serif;
+                        font-size: 33px;
+                        line-height: 36px;
+                        color: #000;
                     }
                 }
-                .products-text__sub{
+                .featured-text__sub{
+                    padding-bottom: 117px;
                     p{
                         font-family: 'Roboto', sans-serif;
+                        color:#A0A0A0 ;
+                        font-size: 15px;
+                        line-height: 18px;
+                        letter-spacing: 0.8px;
                     }
+                }
+            }
+            .featured-cards{
+                display: flex;
+                justify-content: space-evenly;
+                
+                margin: 0 63px;
+                .featured-card{
+                    @media screen and (max-width: 1440px) {
+                        margin: 0 12.5px;
+                    }
+                    a{
+                        text-decoration: none;
+                        img{
+                            padding-bottom: 23px;   
+                           }
+                           .card__text{
+                               .card__title{
+                                   p{
+                                       font-family: 'Roboto', sans-serif;
+                                       font-size: 13px;
+                                       line-height: 21px;
+                                       color: #A0A0A0;
+                                       letter-spacing: 0.7px;
+                                   }
+       
+                               }
+       
+                           }
+                        .card__price{
+                            p{
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 12px;
+                                line-height: 21px;
+                                color: #A0A0A0;
+                                letter-spacing: 0.7px;
+                            }
+                        }
+                    }
+
                 }
             }
         }
