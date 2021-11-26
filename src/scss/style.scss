@@ -1,0 +1,194 @@
+// connect fonts
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    header{
+        .header-nav{
+            padding: 25px 37.5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .nav-ul{
+                ul{
+                    display: flex;
+                    list-style-type: none;
+                    align-items: center;
+                    li{
+                        padding: 0 12px;
+                        a{
+                            text-decoration: none;
+                            font-family: 'Roboto', sans-serif;
+                            color: #000000;
+                            font-size: 14px;
+                            line-height: 16.41px;
+                            letter-spacing: 1.4px;
+                        }
+                    }
+                }
+            }
+            .nav-title{
+                display: flex;
+                justify-content: center;
+            }
+            .nav-cart{
+                ul{
+                    list-style-type: none;
+                    li{
+                        a{
+                            text-decoration: none;
+                            font-family: 'Roboto', sans-serif;
+                            color: #000000;
+                            font-size: 14px;
+                            line-height: 16.41px;
+                            letter-spacing: 1.4px;
+                        }
+                    }
+                }
+            }
+        }
+        .header-hero{
+            background-image: url('../img/img.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            @media screen and (min-width: 1440px) {
+                background-size: cover;
+            }
+            min-height: 52vh;
+            width: 100%;
+            height: 100%;   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 80px;
+            .hero-text{
+                text-align: center;
+                .text-title{
+                    font-family: 'Roboto', sans-serif;
+                    color: #FFFFFF;
+                    font-size: 43px;
+                    line-height: 46px;
+                }
+                .text-sub{
+                    padding-top: 12px;
+                    font-family: 'Roboto', sans-serif;
+                    color: #FFFFFF;
+                    font-size: 15px;
+                    line-height: 18px;
+                    letter-spacing: 0.8px;
+                }
+                .text-more{
+                    padding-top:28px;
+                    a{
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        color: #FFFFFF;
+                        font-size: 13px;
+                        line-height: 15px;
+                        text-align: center;
+                        letter-spacing: 1.4px;
+                    }
+                }
+            }
+        }
+    }
+    .main-content{
+        .content-design{
+            .design-text{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                .design-text__title{
+                    p{
+                        font-family: 'Roboto', sans-serif;
+                        color: #000000;
+                        font-size: 43px;
+                        line-height: 58px;
+                        padding-bottom: 23px;
+                    }
+
+                }
+                .design-text__sub{
+                    p{
+                        font-family: 'Roboto', sans-serif;
+                        color: #A0A0A0;
+                        font-size: 14px;
+                        line-height: 24px;                        
+                        letter-spacing: 0.8px;
+                        padding-bottom: 26px;
+                    }
+                }
+                .design-text__link{
+                    padding-bottom: 81px;
+                    a{
+                        text-decoration:none;
+                        font-family: 'Roboto', sans-serif;
+                        color: #000000;
+                        letter-spacing: 1.4px;
+                        text-transform: uppercase;
+                        
+                    }
+                }
+            }
+        }
+        .design-products{
+            .products-img{
+                display: flex;
+                justify-content:center;
+                .card{
+                    img{
+                        padding-bottom: 48px;
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    padding: 0 25px;
+                    .card-text{
+                        .card-text__title{
+                            p{
+                                font-size: 27px;
+                                line-height: 30px;
+                                color: #000;
+                                font-family: 'Roboto', sans-serif;
+                                padding-bottom: 23px;
+                            }
+                        }
+                        .card-text__link{
+                                padding-bottom: 130px;
+                            a{
+                                text-decoration: none;
+                                color: #000;
+                                text-transform: uppercase;
+                                font-family: 'Roboto', sans-serif;
+                                font-size: 13px;
+                                line-height: 15px;
+                                letter-spacing: 1.4px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+        .featured-products{
+            .products-text{
+                .products-text__title{
+                    p{
+                        font-family: 'Roboto', sans-serif;
+                    }
+                }
+                .products-text__sub{
+                    p{
+                        font-family: 'Roboto', sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
