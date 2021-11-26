@@ -191,7 +191,7 @@
                     }
                 }
                 .featured-text__sub{
-                    padding-bottom: 117px;
+                    padding-bottom: 60px;
                     p{
                         font-family: 'Roboto', sans-serif;
                         color:#A0A0A0 ;
@@ -229,6 +229,7 @@
        
                            }
                         .card__price{
+                            padding-bottom: 95px;
                             p{
                                 font-family: 'Roboto', sans-serif;
                                 font-size: 12px;
@@ -242,5 +243,183 @@
                 }
             }
         }
+        .content-office{
+            background-image: url('../img/background.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            @media screen and (min-width: 1440px) {
+                background-size: cover;
+            }
+            min-height: 52vh;
+            width: 100%;
+            height: 100%;   
+            margin-bottom: 116px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            .office-text{
+                
+                .office-text__title{
+                    padding-bottom: 14px;
+                    p{
+                        font-family: 'Roboto', sans-serif;
+                        color: #FFFFFF;
+                        font-size: 66px;
+                        line-height: 70px;
+                    }
+                }
+                .office-text__sub{
+                    padding-bottom: 30px;
+                    p{
+                        font-family: 'Roboto', sans-serif;
+                        color: #FFFFFF;
+                        font-size: 14px;
+                        line-height: 16px;
+                        letter-spacing: 0.8px;
+                    }
+                }
+                .office-text__link{
+                    a{
+                        text-decoration: none;
+                        font-family: 'Roboto', sans-serif;
+                        color: #FFFFFF;
+                        letter-spacing: 1.4px;
+                        font-size: 13px;
+                        line-height: 15px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .content-hardway{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            img{
+                padding-bottom: 38px;
+            }
+            .hardway-text{
+                .hardway-text__title{
+                    padding-bottom: 23px;
+                    p{
+                        font-family: 'Roboto', sans-serif;
+                        color: #000;
+                        font-size: 34px;
+                        line-height: 36px;
+                    }
+                }
+                .hardway-text__sub{
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 23px;
+                    p{
+                        max-width: 777px;
+                        font-family: 'Roboto', sans-serif;
+                        text-align: center;
+                        color: #A0A0A0;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0.8px;
+                    }
+                }
+            }
+        }
+        .content-work{
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            flex-direction: column;
+            .work-text{
+                .work-text__title{
+                    p{
+                        padding-bottom: 23px;
+                        font-family: 'Roboto', sans-serif;
+                        color: #000;
+                        font-size: 34px;
+                        line-height: 36px;
+                    }
+                }
+                .work-text__sub{
+                    display: flex;
+                    justify-content: center;
+                    padding-bottom: 79px;
+                    p{
+                        max-width: 789px;
+                        font-family: 'Roboto', sans-serif;
+                        color: #A0A0A0;
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+            }
+            .content-photo{
+                margin: 0 50px;
+                display: flex;
+                justify-content: center;
+                .cards-photo{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .card{
+                        padding-bottom: 124px;
+                        margin: 14px 12.5px;
+                    }
+                }
+                .card-photo{
+                    padding: 14px 12.5px;
+                }
+            }
+        }
+        .content-hope{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            text-align: center;
+            .hope__text{
+                .hope-text__title{
+                    padding-bottom: 44px;
+                    p{
+                        font-family: 'Roboto', sans-serif;
+                        color: #000;
+                        font-size: 34px;
+                        line-height: 36px;
+                    }
+                }
+                .hope-text__sub{
+                    padding-bottom: 121px;
+                    p{
+                        font-family: 'Roboto', sans-serif;
+                        color: #000;
+                        font-size: 13px;
+                        line-height: 21px;
+                        letter-spacing: 1.4px;
+                        text-transform: uppercase;
+                    }
+                }
+            }
+        }
+        .content-design{
+            background-color: #9AA8B1;
+            min-height: 52vh;
+            width: 100%;
+            height: 100%;  
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .design-info{
+                .design-info__img{
+
+                }
+                .design-info-text__title{
+
+                }
+                .design-info-text__sub{
+
+                }
+            }
+        }
+
     }
 }
