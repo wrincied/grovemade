@@ -105,6 +105,9 @@
                 flex-direction: column;
                 .design-text__title{
                     p{
+                        @media screen and (max-width:880px) {
+                            font-size: 33px !important;
+                        }
                         font-family: 'Roboto', sans-serif;
                         color: #000000;
                         font-size: 43px;
@@ -146,6 +149,15 @@
                 .card{
                     img{
                         max-width: 1200px;
+                        @media screen and (max-width: 880px) {
+                            max-width: 600px;
+                        }
+                        @media screen and (max-width: 778px) {
+                            max-width: 460px;
+                        }
+                        @media screen and (max-width: 480px) {
+                            max-width: 400px;
+                        }
                         padding-bottom: 48px;
                     }
                     display: flex;
@@ -155,6 +167,10 @@
                     padding: 0 25px; 
                     @media screen and (max-width:1462px) {
                         display: initial
+
+                    }
+                    @media screen and (max-width: 880px) {
+                        padding: 0 5px;
                     }
                     .card-text{
                         .card-text__title{
@@ -195,6 +211,9 @@
                 .featured-text__title{
                     padding-bottom: 16px;
                     p{
+                        @media screen and (max-width:880px) {
+                            font-size: 29px !important;
+                        }
                         font-family: 'Roboto', sans-serif;
                         font-size: 33px;
                         line-height: 36px;
@@ -204,6 +223,9 @@
                 .featured-text__sub{
                     padding-bottom: 60px;
                     p{
+                        @media screen and (max-width:880px) {
+                            font-size: 14px !important;
+                        }
                         font-family: 'Roboto', sans-serif;
                         color:#A0A0A0 ;
                         font-size: 15px;
@@ -216,6 +238,9 @@
                 display: flex;
                 justify-content: space-evenly;
                 margin: 0 63px;
+                @media screen and (max-width: 880px) {
+                    margin: 0;
+                }
                 @media screen and (max-width:1390px) {
                     display: flex;
                     flex-direction: column;
@@ -230,6 +255,9 @@
                         text-decoration: none;
                         img{
                             padding-bottom: 23px;   
+                            @media screen and (max-width:880px) {
+                                padding-bottom: 15px;
+                            }
                            }
                            .card__text{
                                .card__title{
@@ -290,6 +318,9 @@
                         @media screen and (max-width:880px) {
                             font-size: 46px;
                         }
+                        @media screen and (max-width:880px) {
+                            font-size: 36px;
+                        }
                         font-size: 66px;
                         line-height: 70px;
                     }
@@ -338,6 +369,18 @@
                 @media screen and (max-width: 880px) {
                     max-width: 700px;
                 }
+                @media screen and (max-width: 778px) {
+                    max-width: 600px;
+                }
+                @media screen and (max-width: 778px) {
+                    max-width: 600px;
+                }
+                @media screen and (max-width: 625px) {
+                    max-width: 500px;
+                }
+                @media screen and (max-width: 520px) {
+                    max-width: 400px;
+                }
             }
             .hardway-text{
                 .hardway-text__title{
@@ -361,6 +404,9 @@
                         max-width: 777px;
                         @media screen and (max-width: 880px) {
                             max-width: 620px;
+                        }
+                        @media screen and (max-width: 880px) {
+                            max-width: 450px;
                         }
                         font-family: 'Roboto', sans-serif;
                         text-align: center;
@@ -398,6 +444,9 @@
                         max-width: 789px;
                         @media screen and (max-width:880px) {
                             max-width: 630px;
+                        }
+                        @media screen and (max-width: 880px) {
+                            max-width: 450px;
                         }
                         font-family: 'Roboto', sans-serif;
                         color: #A0A0A0;
@@ -442,6 +491,9 @@
                     p{
                         font-family: 'Roboto', sans-serif;
                         color: #000;
+                        @media screen and (max-width:880px) {
+                            font-size: 32px !important;
+                        }
                         font-size: 34px;
                         line-height: 36px;
                     }
@@ -483,7 +535,7 @@
                         padding-bottom: 23px;
                         p{
                             @media screen and (max-width:880px) {
-                                font-size: 33px;
+                                font-size: 33px !important;
                             }
                             font-size: 43px;
                             line-height: 58px;
@@ -492,7 +544,6 @@
                         }
                     }
                     .desing-info-text__sub{
-
                         p{
                             font-family: 'Roboto', sans-serif;
                             font-size: 14px;
@@ -507,6 +558,9 @@
         footer{
             background-color: #F9F9F9;
             min-height: 48vh;
+            @media screen and (max-width:880px) {
+                min-height: 18vh;
+            }
             .footer__main{
                 margin: 0 50px;
 
@@ -539,6 +593,9 @@
                 display: flex;
                 flex-direction: row;
                 .footer__nav{ 
+                    @media screen and (max-width:880px) {
+                        display: none;
+                    }
                     padding-right: 24px;
                         ul{
                             display: flex;
@@ -551,13 +608,20 @@
                                     font-family: 'Roboto', sans-serif;
                                     text-decoration: none;
                                     color: #000000;
+                                    @media screen and (max-width:880px) {
+                                        font-size: 18px;
+                                    }
                                     font-size: 22px;
+                                
                                     line-height: 24px;
                                 }
                             }
                         }
                     }
                     .middle__info{
+                        @media screen and (max-width:880px) {
+                            display: none;
+                        }
                         .middle-info__text{
                             .middle-info-text__title{
                                 padding-bottom: 24px;
@@ -589,6 +653,9 @@
                     ul{
                         display: flex;
                         justify-content: right;
+                        @media screen and (max-width:880px) {
+                            justify-content: center;
+                        }
                         list-style-type: none;
                         li{
                             font-family: 'Roboto', sans-serif;
