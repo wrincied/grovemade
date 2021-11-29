@@ -722,9 +722,9 @@
                         list-style-type: none;
                         li{
                             font-family: 'Roboto', sans-serif;
-                            padding: 0 13.5px;
+                            padding:0 13.5px;
                             @media screen and (max-width: 880px) {
-                                padding: 14px 0;
+                                padding: 14px 13.5px;
                             }
                             color: #707A7F;
                             font-size: 13px;
