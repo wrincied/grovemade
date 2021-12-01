@@ -288,6 +288,9 @@
                     @media screen and (max-width: 1440px) {
                         margin: 0 12.5px;
                     }
+                    @media screen and (max-width: 800px) {
+                        margin: 0;
+                    }
 
                     a{
                         text-decoration: none;
